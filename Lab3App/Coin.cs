@@ -17,6 +17,7 @@ namespace Lab3App
         private void UpdateTotalValue()
         {
             Board.TotalValue += Value;
+            Console.WriteLine($"Total Value is updated to: {Board.TotalValue}");
         }
 
         public override void Display()
